@@ -26,6 +26,6 @@
 * 对于需要按照应用控制访问权限，比较麻烦。
 * 和spring程序集成度比较高。其他异构语言可以通过restful api，但是比较麻烦。
 
-###运行本用例
+### 运行本用例
 
 在IDE中，可以直接编译运行ConfigServerApplication.java 文件。
