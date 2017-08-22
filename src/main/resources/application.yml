@@ -1,18 +1,22 @@
 ---
+#配置应用名称与端口号
 spring:
   application:
     name: config-server
 server:
   port: 8881
 
+#配置管理端地址
 management:
   context-path: /admin
-  
+ 
+#配置日志输出
 logging:
   level:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'INFO'
 
+#配置git地址.此用例使用spring cloud 用例配置。
 ---
 spring:
   cloud:
