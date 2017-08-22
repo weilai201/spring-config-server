@@ -29,3 +29,7 @@
 ### 运行本用例
 
 在IDE中，可以直接编译运行ConfigServerApplication.java 文件。
+运行后，可以获取配置中心配置，如或者应用“foo”下的“development”环境配置。可以访问 http://localhost:8881/foo/development 获取配置。
+
+服务器配置文件，参考： https://github.com/spring-cloud-samples/config-repo
+
